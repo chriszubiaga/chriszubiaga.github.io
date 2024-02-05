@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christopher Zubiaga - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/chriszbga-logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile-pic-rounded.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Christopher Zubiaga</h1>
+
+            <p class="title">Cybersecurity | DFIR Analyst</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:tope.in.au@gmail.com" class="contact-link"
+                  >tope.in.au@gmail.com</a
+                >
+              </div>
+            </li>
+            <!-- 
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">(+61) 0422259875</a>
+            </div>
+
+          </li> -->
+
+            <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Melbourne, VIC Australia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/tope.zubiaga/"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/christopher-zubiaga-469199135/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/chriszubiaga" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li> -->
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Greetings! I'm a passionate DFIR Analyst and cybersecurity
+              enthusiast based in the vibrant city of Melbourne, Australia.
+              Originally hailing from the Philippines, my journey brought me
+              here to pursue a Masters of Cybersecurity at RMIT, allowing me not
+              only to expand my knowledge but also to immerse myself in the
+              unique and welcoming culture of Melbourne.
+            </p>
+            <p>
+              Having recently completed my masters in November 2023, I am now
+              eagerly seeking new opportunities to contribute my skills and
+              expertise to the world of cybersecurity. Melbourne's status as one
+              of the most livable cities in the world has not only enriched my
+              academic experience but has also provided me with a diverse and
+              dynamic backdrop for personal and professional growth.
+            </p>
+            <p>
+              Currently on the lookout for engaging roles in blue teaming or
+              pentesting, I am excited about the prospect of joining a team
+              where I can apply my knowledge and enthusiasm for cybersecurity to
+              make a meaningful impact. I do have 5+ years worth of experience
+              in cybersecurity, particularly DFIR. If you're looking for a
+              dedicated and skilled professional with a global perspective, I
+              would love to connect and explore how I can contribute to your
+              organization's success.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-pentesting.png
+                "
+                    alt="pentesting icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Pentesting</h4>
+
+                  <p class="service-item-text">
+                    Performs Web Application Penetration Testing.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-coding.png"
+                    alt="coding icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Coding</h4>
+
+                  <p class="service-item-text">
+                    Develop scripts and tools for automation.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dfir.png"
+                    alt="dfir icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Digital Forensics and Incident Response
+                  </h4>
+
+                  <p class="service-item-text">
+                    Conducts threat hunting, malware analysis and incident
+                    response.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+        </section> -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <!-- <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div> -->
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">IT Security</h4>
+                <span>Mosse Security (Aug 2023 — Present)</span>
+
+                <p class="timeline-text">
+                  I conducted web application penetration testing and played a
+                  key part in building the company's knowledge base by creating
+                  informative articles on general IT and cybersecurity topics. I
+                  also took on the responsibility of validating and reviewing
+                  student exercises to ensure the practical application of
+                  security concepts.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">CSIRT Consultant</h4>
+
+                <span>Verizon Communications Inc. (Mar 2021 — Jan 2022)</span>
+
+                <p class="timeline-text">
+                  My role involves managing incident response operations,
+                  overseeing the reception and monitoring of incident
+                  information from diverse security solutions. My
+                  responsibilities extended to conducting in-depth analysis of
+                  collected incident data, enabling me to make informed
+                  decisions to confirm or reject incidents. I led containment
+                  efforts by coordinating seamlessly with stakeholders in
+                  accordance with established processes. Identifying attack
+                  vectors, I implemented preventive measures for future
+                  incidents, leveraging a versatile array of security tools
+                  including Crowdstrike, Zscaler, Rapid 7, Sentinel One, Palo
+                  Alto, and Checkpoint.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Threat Customer Service Engineer
+                </h4>
+
+                <span>Trend Micro (Oct 2018 — Mar 2021)</span>
+
+                <p class="timeline-text">
+                  I spearheaded digital forensics and incident response efforts
+                  for enterprise customers, specializing in high-priority and
+                  escalated malware and threat-related incidents. Serving as a
+                  squad lead, I demonstrated effective leadership by being the
+                  primary point of contact for threat-related incidents within
+                  the team. My extensive experience encompasses handling diverse
+                  types of threats and malware, ranging from ransomware and
+                  worms to fileless attacks. Proficient in the end-to-end
+                  process from threat hunting to resolution, I showcased my
+                  commitment to knowledge sharing by developing comprehensive
+                  training documents and exercises on threats and products.
+                  Additionally, I authored advisories and articles on emerging
+                  threats, ensuring both customers and the team remained
+                  well-informed about the evolving threat landscape.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cloud Security Engineer</h4>
+
+                <span>Trend Micro (Jan 2017 — Oct 2018)</span>
+
+                <p class="timeline-text">
+                  Specializing in malware removal services across diverse
+                  platforms, including Windows, Mac OS, iOS, and Android
+                  devices, my role in ensuring a secure computing environment
+                  for consumer customers. Providing exceptional customer support
+                  for Trend Micro Home and Home Office users, I addressed
+                  account management, product inquiries, and efficiently
+                  resolved product concerns. Beyond customer support, I
+                  proactively shared technical expertise through training
+                  sessions, actively contributed to innovative solutions, and
+                  played a key role in self-service initiatives. Additionally, I
+                  served as an integral member of the Knowledge Management Team,
+                  making significant contributions to the development and
+                  maintenance of self-service and knowledge base articles.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Masters of Cyber Security with Distinction
+                </h4>
+
+                <span>July 2021 — Nov 2023</span>
+
+                <p class="timeline-text">
+                  Royal Melbourne Institute of Technology (RMIT) University
+                  <br />
+                  <i>Melbourne, VIC 3006 </i>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Science in Electronics Engineering
+                </h4>
+
+                <span>Mar 2016</span>
+
+                <p class="timeline-text">
+                  Ateneo De Naga University <br />
+                  <i>Naga City, Camarines Sur, Philippines</i>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="certification">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Certifications</h3>
+            </div>
+
+            <ul class="certification-list">
+              <li class="certification-item">
+                <h4 class="h4 certification-item-title">
+                  CompTIA Cybersecurity Analyst (CySA+)
+                </h4>
+
+                <span>CompTIA</span>
+
+                <p class="certification-link">
+                  <a
+                    href="https://www.youracclaim.com/badges/aefc20b0-d888-4be8-946d-16938795c4a0/public_url"
+                    target="_blank"
+                    ><i>See credential</i></a
+                  >
+                </p>
+              </li>
+
+              <li class="certification-item">
+                <h4 class="h4 certification-item-title">
+                  (ISC)<sup>2</sup> Certified in Cybersecurity
+                </h4>
+
+                <span>(ISC)<sup>2</sup></span>
+
+                <p class="certification-link">
+                  <a
+                    href="https://www.credly.com/badges/3041475e-f909-4d9e-ab90-006500b2272c/public_url"
+                    target="_blank"
+                    ><i>See credential</i></a
+                  >
+                </p>
+              </li>
+
+              <li class="certification-item">
+                <h4 class="h4 certification-item-title">
+                  Microsoft Certified: Azure Fundamentals
+                </h4>
+
+                <span>Microsoft</span>
+
+                <p class="certification-link">
+                  <a
+                    href="https://www.youracclaim.com/badges/435247e6-2746-4c08-add6-f02691631c63"
+                    target="_blank"
+                    ><i>See credential</i></a
+                  >
+                </p>
+              </li>
+
+              <li class="certification-item">
+                <h4 class="h4 certification-item-title">
+                  ICSI Certified Network Security Specialist (CNSS)
+                </h4>
+
+                <span>International Cybersecurity Institute (ICSI)</span>
+
+                <p class="certification-link">
+                  <a
+                    href="https://drive.google.com/file/d/1nZmjT8TixrWTciFZAXIMS0QWDFfktrYu/view?usp=sharing"
+                    target="_blank"
+                    ><i>See credential</i></a
+                  >
+                </p>
+              </li>
+
+              <li class="certification-item">
+                <h4 class="h4 certification-item-title">
+                  Trend Micro Certified Anti-Malware Professional (TCAP)
+                </h4>
+
+                <span>Trend Micro</span>
+
+                <p class="certification-link">
+                  <a
+                    href="https://drive.google.com/file/d/1VMzlI-u3Hi32oH55KC0n424R4pO1eKWe/view?usp=sharing"
+                    target="_blank"
+                    ><i>See credential</i></a
+                  >
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <!-- <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+          </section> -->
+
+          <!-- <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+          </section> -->
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Coding</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Random</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Coding</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Random</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="random"
+              >
+                <a href="https://toff333.github.io/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/cybersecurity-library.png"
+                      alt="cybersecurity library"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cybersecurity Library</h3>
+                  <p class="project-category">Random</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <!-- <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article> -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <!-- <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805190.3193395695!2d144.39237643599094!3d-37.9707184670642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1707133133023!5m2!1sen!2sau"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article> -->
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
