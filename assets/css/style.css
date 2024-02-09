@@ -1168,6 +1168,21 @@ main {
   line-height: 1.6;
 }
 
+/* Blog Post Page */
+.blog-post-page {
+  margin: 20px;
+}
+
+.blog-post-page-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.blog-post-page-content {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 
 
 
